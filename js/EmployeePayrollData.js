@@ -24,6 +24,10 @@ class EmployeePayrollData {
         this._gender = gender;
     }
 
+    get salary() { return this._salary }
+    set salary(salary) {
+        this._salary = salary;
+    }
     get department() { return this._department }
     set department(department) {
         this._department = department;
